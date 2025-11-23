@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo HTML5 Game - OOP & LocalStorage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="manHinhGame" width="600" height="400"></canvas>
+    
+    <div class="bang-thong-tin">
+        <h3>Minh họa: Game Loop + OOP + LocalStorage</h3>
+        <p>Điểm: <span id="diemSo">0</span> | Cao thủ: <span id="diemCao">0</span></p>
+        <p id="loiNhan">Dùng phím mũi tên để di chuyển. Đừng đâm vào tường!</p>
+        <button id="nutChoiLai" onclick="troChoi.batDau()">Chơi Lại</button>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
